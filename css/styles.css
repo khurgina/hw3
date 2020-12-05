@@ -1,0 +1,148 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --main-background-color: #fff;
+  --herofooter-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+  --white-color: #ffffff;
+}
+
+/* styles for index.html */
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: #000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+.web {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.link.current {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--herofooter-background-color);
+}
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .hero-button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.about-title,
+.team-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.about-item {
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.team-item {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer {
+  background-color: var(--herofooter-background-color);
+}
+.studio {
+  color: var(--white-color);
+}
+.footer-link {
+  color: var(--white-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* styles for portfolio.html */
+.btn-portfolio {
+  color: var(--secondary-text-color);
+  background-color: var(--team-background-color);
+  border-color: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+.portfolio-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
