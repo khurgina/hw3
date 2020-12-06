@@ -285,7 +285,8 @@ address {
   margin-right: 8px;
 }
 .portfolio-card {
-  flex-basis: calc (100%/3 - 30px);
+  border: 1px solid #eeeeee;
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
